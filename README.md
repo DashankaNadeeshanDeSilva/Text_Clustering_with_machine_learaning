@@ -14,4 +14,6 @@ Follwing steps are involved in the script:
 2. Tokenizing and stemmung synopses - Splits the synopsis into a list of its respective words or tokenize corpus
 3. TFIDF and document similarity - Define term frequency-inverse document frequency (tf-idf) vectorizer object (parameters) the convert the synopses list 
 into a tf-idf matrix using the vectorizer object and use cosine distance between each text as a measure of similarity
-4. 
+4. Clustering the text synopses using the K-means algorithm
+5. Hierarchical document clustering approach and dendrogram plotting - By defining linkage_matrix using ward clustering pre-computed distances
+6. Topic modeling using Latent Dirichlet Allocation (LDA)

@@ -163,6 +163,8 @@ terms = tfidf_vectorizer.get_feature_names()
 # Appy cosine similartity to get similarity distance between features of TF-IDF matrix
 dist = 1 - cosine_similarity(tfidf_matrix)
 
+
+# K-means Clustering
 # tf-idf matrix, you can run a slew of clustering algorithms to better understand the hidden structure within  synopses.
 # Run K-means clustering to get a better understanding of hidden structure with in the synopses using TF-IDF matrix
 num_clusters = 5
@@ -191,6 +193,7 @@ for i in range(num_clusters):
     for title in frame.loc[i]['title'].values.tolist():
         print(' %s,' % title, end='')
     print("\n")
+
 
 # Hierarchical document clustering approach
 # define the linkage_matrix using ward clustering pre-computed distances

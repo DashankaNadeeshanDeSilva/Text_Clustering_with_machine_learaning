@@ -17,3 +17,5 @@ into a tf-idf matrix using the vectorizer object and use cosine distance between
 4. Clustering the text synopses using the K-means algorithm
 5. Hierarchical document clustering approach and dendrogram plotting - By defining linkage_matrix using ward clustering pre-computed distances
 6. Topic modeling using Latent Dirichlet Allocation (LDA)
+
+By directly running the script one can achieve the final results and it can also change the hyperparameters or the dataset upon requirement.
